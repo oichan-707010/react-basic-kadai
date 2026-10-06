@@ -1,0 +1,30 @@
+.calculator-container {
+  background-color: darkgoldenrod;
+  border: 1px solid black;
+  padding: 2rem;
+  min-height: 2rem;
+  line-height: 2rem;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 8px;
+  justify-content: center;
+}
+
+button {
+  background-color: saddlebrown;
+  padding: 1rem;
+  border-radius: 0.41rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.display-area {
+  background-color: whitesmoke;
+  height: 2rem;
+  width: 30%;
+  min-width: 200px;
+  margin: 1rem auto;
+}
