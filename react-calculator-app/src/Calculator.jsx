@@ -65,7 +65,7 @@ export default function Calculator() {
   return (
     <div className="calculator-container">
       <h2>電卓アプリ</h2>
-      <div className="display-area">{display}</div>
+      <div className="display-area">{display || "0"}</div>
       <div className="button-grid">
         {buttons.map((btn) => (
           <button key={btn} onClick={() => handleButtonClick(btn)}>
